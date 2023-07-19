@@ -1,0 +1,30 @@
+:root {
+  --app-footer-bg: rgb(203, 212, 231);
+  --app-bg-dark: rgb(36, 36, 36);
+  --app-bg: rgb(233, 236, 243);
+}
+
+
+#root {
+  text-align: center;
+  margin: 0 auto;
+
+  background-color: var(--app-bg);
+  color: var(--app-bg-dark);
+}
+
+.todo-wrapper {
+  flex-direction: column;
+  min-height: 100dvh;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-underline-offset: 0.45rem;
+  text-decoration: underline;
+}
